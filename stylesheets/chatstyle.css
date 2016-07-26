@@ -144,28 +144,18 @@ body {
   min-width: 100px;
   position: relative;
 }
-.messages .message .text_wrapper::after, .messages .message .action_wrapper:before {
-  top: 18px;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-.messages .message .action_wrapper::after {
-  border-width: 13px;
-  margin-top: 0px;
-}
-.messages .message .action_wrapper::before {
-  border-width: 15px;
-  margin-top: -2px;
-}
 
 .messages .message .action_wrapper .text {
   font-size: 18px;
   font-weight: 300;
 }
+
+.messages .message.right .action_wrapper {
+  background-color: #c7eafc;
+  margin-right: 20px;
+  float: right;
+}
+
 .bottom_wrapper {
   position: relative;
   width: 100%;
