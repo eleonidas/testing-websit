@@ -150,7 +150,7 @@ body {
   font-weight: 300;
 }
 
-.messages .message.right .action_wrapper {
+.messages .message.right .action_wrapper .selection {
   background-color: #c7eafc;
   margin-right: 20px;
   float: right;
