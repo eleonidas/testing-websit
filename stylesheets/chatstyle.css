@@ -147,6 +147,7 @@ body {
 
 .messages .message.right .selection {
   color: #45829b;
+  margin-right: 20px;
 }
 
 .messages .message .action_wrapper {
