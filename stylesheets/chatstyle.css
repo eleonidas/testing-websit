@@ -137,24 +137,7 @@ body {
   font-weight: 300;
 }
 
-.messages .message .action_wrapper {
-  display: inline-block;
-  padding: 20px;
-  border-radius: 6px;
-  min-width: 100px;
-  position: relative;
-}
 
-.messages .message .action_wrapper .text {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.messages .message.right .action_wrapper .text {
-  background-color: #c7eafc;
-  margin-right: 20px;
-  float: right;
-}
 
 .bottom_wrapper {
   position: relative;
